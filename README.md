@@ -37,6 +37,11 @@ These dependencies are listed in the `Pipfile`, so to install them, simply run:
 ```bash
 pipenv install
 ```
+Once the dependencies are installed, activate the virtual environment by running:
+
+```bash
+pipenv shell
+```
 
 To run the program and visualize the Bézier curve, execute the following command:
 
