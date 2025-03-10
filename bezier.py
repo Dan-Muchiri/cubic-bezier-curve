@@ -24,7 +24,7 @@ print(curve_points)
 
 # Plotting
 plt.figure(figsize=(6, 6))
-plt.plot(curve_points[:, 0], curve_points[:, 1], 'r-', label="Bézier Curve")
+plt.plot(curve_points[:, 0], curve_points[:, 1], 'ro-', label="Bézier Curve")
 plt.plot([q0[0], q1[0], q2[0], q3[0]], [q0[1], q1[1], q2[1], q3[1]], 'bo--', label="Control Points")
 plt.xlabel('X')
 plt.ylabel('Y')
